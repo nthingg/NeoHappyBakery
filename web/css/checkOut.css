@@ -1,0 +1,212 @@
+.checkout-container {
+    width: 1300px;
+    background-color: #f0eeee;
+    margin: 0 auto;
+}
+
+.checkout-container h2 {
+    text-align: center;
+    padding: 40px;
+}
+
+.table-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #f0eeee;
+    padding: 60px 15px;
+}
+
+.table-body-recipe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #f0eeee;
+    padding: 60px 15px;
+}
+
+.ingredient-update {
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 12px;
+    right: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(121, 182, 29);
+}
+
+.ingredient-delete:hover {
+    background-color: rgb(186, 7, 7);
+}
+
+.ingredient-update:hover {
+    background-color: rgb(77, 117, 18);
+}
+
+.ingredient-delete {
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+
+.ingredient-item {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 10px;
+}
+
+.ingredient-body {
+    background-color: white;
+    padding: 8px 0;
+}
+
+.storename {
+    font-size: 15px !important;
+}
+
+.ingredient-item p {
+    padding: 5px 0;
+}
+
+.ingredient-name {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+.add-to-cart {
+    display: block;
+    padding: 5px;
+    margin: 10px auto 0 auto;
+    background-color: #E06120;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+}
+
+.add-to-cart:hover {
+    background-color: black;
+}
+
+.ingredient-name:hover {
+    color: #E06120;
+}
+
+.ingredient-category,
+.ingredient-price {
+    font-size: 14px;
+}
+
+.ingredient-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+}
+
+.saling {
+    color: red !important;
+}
+
+.ingredient-sale {
+    position: absolute;
+    background-color: rgb(255, 66, 66);
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    top: -12px;
+    right: -12px;
+}
+
+.org-price {
+    color: black;
+    text-decoration: line-through;
+}
+
+
+/* Input number */
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.number-input {
+    border: 2px solid #ddd;
+    display: inline-flex;
+}
+
+.number-input,
+.number-input * {
+    box-sizing: border-box;
+}
+
+.number-input {
+    margin-top: 10px;
+}
+
+.number-input button {
+    outline: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 1rem;
+    height: 2px;
+    background-color: #212121;
+    transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 5rem;
+    padding: .5rem;
+    border: solid #ddd;
+    border-width: 0 2px;
+    font-size: 20px;
+    height: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+

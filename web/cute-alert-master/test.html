@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <button >23123</button>
+
+    <script src="cute-alert.js">
+        
+    </script>
+    <script>
+        var check = 123;
+        if (check == 123) {
+            cuteAlert({
+                img: "/img/success.svg",
+                type: "success-q",
+                title: "Register successfull!",
+                message: "Now you can use the account to login",
+                confirmText: "Confirm",
+                cancelText: "Cancel",
+            }).then((e) => {
+                if (e == "confirm") {
+                    alert("Thanks!");
+                } else {
+                    alert("VCC!");
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

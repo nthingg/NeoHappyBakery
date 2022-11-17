@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 18, 2022, 2:18:28 PM
+    Author     : ADMIN
+*/
+
+.filterDivAdmin {
+    display: none;
+}
+
+.show-filter-admin {
+    display: block;
+}
+
+.bg-cl-grey {
+    background-color: #191C24 !important;
+}
+
+.mgn-0 {
+    margin: 0;
+}
+
+.padd-top-0 {
+    padding-top: 0 !important; 
+}
+
+.filter-selection-admin {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.btn-admin {
+    background-color: #191C24 !important;
+    color: white;
+    padding: 10px
+}
+
+.btn-admin:hover {
+    border-bottom: 3px #EB1616 solid;
+}
+
+.btn-admin.active-filter-admin {
+    border-bottom: 3px #EB1616 solid;
+}
